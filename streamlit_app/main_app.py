@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "https://agro-backend.onrender.com"
+API_URL = "https://agronomy-api.onrender.com"
 
 st.set_page_config(page_title="AI-Powered Agronomy Assistant")
 st.title("🌾 AI-Powered Agronomy Assistant")
