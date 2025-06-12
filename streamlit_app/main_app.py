@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-API_URL = "http://127.0.0.1:5000"  # Update if using a different Flask URL
+API_URL = "https://agro-backend.onrender.com"
 
 st.set_page_config(page_title="AI-Powered Agronomy Assistant")
 st.title("🌾 AI-Powered Agronomy Assistant")
