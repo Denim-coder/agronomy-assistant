@@ -83,7 +83,7 @@ elif selected_feature == "☁️ Weather Info":
             weather = response.json()
             st.write(f"**Temperature:** {weather['temperature']} °C")
             st.write(f"**Humidity:** {weather['humidity']}%")
-            st.write(f"**Condition:** {weather['description']}")
+            st.write(f"**Condition:** {weather.get('description', 'N/A')}")
         else:
             st.error("Failed to fetch weather data.")
 
